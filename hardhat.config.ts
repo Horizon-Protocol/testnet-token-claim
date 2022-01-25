@@ -45,7 +45,7 @@ const config: HardhatUserConfig = {
       chainId: chainIds.hardhat,
     },
     testnet: {
-      url: "https://data-seed-prebsc-1-s3.binance.org:8545/",
+      url: "https://data-seed-prebsc-1-s1.binance.org:8545/",
       accounts: [privateKey],
       chainId: chainIds.testnet,
     },
